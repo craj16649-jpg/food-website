@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Order Website</title>
+
+    <style>
+
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        nav{
+            background-color:black ;
+            color:white;
+            padding:15px;
+            text-align: center;
+        }
+
+        li,h1{
+            display: inline;
+        }
+
+        li{
+            color: grey;
+            cursor: pointer;
+            margin-left: 20px;
+        }
+
+        li:hover{
+            color:white;
+        }
+
+        ul{
+            margin-top: 10px;
+        }
+
+        .product{
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 20px;
+            flex-wrap: wrap;
+        }
+
+        .box{
+            border: 2px solid black;
+            width: 320px;
+            text-align: center;
+            padding-bottom: 10px;
+        }
+
+        .box img{
+            width: 100%;
+            height: 320px;
+            object-fit: cover;
+        }
+
+        .box p{
+            padding: 10px;
+        }
+
+        .order{
+            background-color: black;
+            color: white;
+            font-weight: bold;
+            padding: 8px 15px;
+            border: none;
+            cursor: pointer;
+        }
+
+        .contact{
+            background-color: black;
+            color: antiquewhite;
+            text-align: center;
+            padding: 50px;
+            margin-top: 30px;
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <!-- Navbar -->
+
+    <nav>
+        <h1>Reestar</h1>
+
+        <ul>
+            <li>Home |</li>
+            <li>Recipe |</li>
+            <li>Contact</li>
+        </ul>
+    </nav>
+
+    <!-- Products -->
+
+    <div class="product">
+
+        <div class="box">
+            <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836" alt="Food Image">
+            <p>Tasty and delicious food for your healthy life.</p>
+            <button class="order">Order Now</button>
+        </div>
+
+        <div class="box">
+            <img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c" alt="Food Image">
+            <p>Fresh recipes made with quality ingredients.</p>
+            <button class="order">Order Now</button>
+        </div>
+
+        <div class="box">
+            <img src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd" alt="Food Image">
+            <p>Enjoy healthy and tasty meals every day.</p>
+            <button class="order">Order Now</button>
+        </div>
+
+    </div>
+
+    <!-- Contact Section -->
+
+    <div class="contact">
+        <h2>Contact Us</h2>
+        <br>
+        <p>📞 9876543210</p>
+        <p>📧 reestarfood@gmail.com</p>
+        <br>
+        <p>Healthy and delicious food delivered to your doorstep.</p>
+    </div>
+
+</body>
+</html>
